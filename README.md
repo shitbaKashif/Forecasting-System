@@ -95,6 +95,6 @@ Confirming proper functionality of both backend and frontend components without 
 - SQLite
 - Libraries for models (Prophet, SARIMA, Exponential Smoothing)
 - TensorFlow
-- To directly install the requirements from the requirements.txt file, you can use the following command: pip install -r requirements.txt
+- To directly install the requirements from the requirements.txt file, you can use the following command: `pip install -r requirements.txt`
 
 **Made by Shitba Kashif and Hiba Imran**
