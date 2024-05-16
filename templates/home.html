@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mining Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Forecasting System for Multiple Sectors</h1>
+        <p class="lead">.........</p>
+        <form method="post" action="/result">
+            <div class="form-group">
+                <label>Select Model(s) Below:</label>
+                <br>
+                {% for model in models %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="{{ model }}" name="model" value="{{ model }}" style="width: 20px; height: 20px;">
+                        <label class="form-check-label" for="{{ model }}" style="font-size: 18px;">{{ model }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="form-group">
+                <label>Select Dataset(s) Below:</label>
+                <br>
+                {% for dataset in datasets %}
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="{{ dataset }}" name="dataset" value="{{ dataset }}" style="width: 20px; height: 20px;">
+                        <label class="form-check-label" for="{{ dataset }}" style="font-size: 18px;">{{ dataset }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn btn-primary">Enter</button>
+        </form>
+    </div>
+</body>
+</html>

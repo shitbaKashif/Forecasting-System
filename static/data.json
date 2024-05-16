@@ -1,0 +1,131 @@
+{
+  "finance": {
+    "d_finance": 1,
+    "arima": {
+      "mse": 354836.9246567608,
+      "order": [2, 2, 1],
+      "image": ["static/image/finance_arima.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+    },
+    "ann": {
+      "loss": 277.2946472167969,
+      "metric": 10.160195350646973,
+      "image": ["static/image/finance_ann.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+    },
+    "ets": {
+      "mse": 618.7857534046295,
+      "mae": 15.108209737056628,
+      "rmse": 24.875404587757554,
+      "r2": 0.9993510824712432,
+      "image": ["static/image/finance_ets.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+    },
+    "sarima":{
+      "image": ["static/image/finance.png", "static/image/finance_acf_pacf.png"]
+  
+    },
+    "lstm":{
+      "image": ["static/image/finance_lstm.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+  
+    },
+    "prophet":{
+      "image": ["static/image/finance_prophet.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+  
+    },
+    "hybrid": {
+      "loss": 0.0246,
+      "mae": 4107.039261851906,
+      "image": [ "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+    },
+    "svr": {
+      "mae": 0.12391457681683236,
+      "mse": 0.03494212401239136,
+      "rmse": 0.1869281252577882,
+      "r2": 0.9669896345404457,
+      "image": ["static/image/finance_svr.png", "static/image/finance.png", "static/image/finance_acf_pacf.png"]
+    }
+  },
+  "environment": {
+    "d_environment": 1,
+    "arima": {
+      "mse": 9.969336932193421,
+      "order": [1, 2, 1],
+      "image": ["static/image/enviorment_arima.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+    },
+    "ann": {
+      "loss": 0.02481110207736492,
+      "metric": 0.1337174028158188,
+      "image": ["static/image/environment_ann.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+    },
+    "ets": {
+      "mse": 0.2671893648350186,
+      "mae": 0.3578717721941742,
+      "rmse": 0.5169036320582576,
+      "r2": 0.9996109557443623,
+      "image": ["static/image/enviorment_ets.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+    },
+    "sarima":{
+      "image": ["static/image/enviorment_arima.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+   
+    },
+    "lstm":{
+      "image": ["static/image/environment_lstm.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+   
+    },
+    "prophet":{
+      "image": ["static/image/enviorment_prophet.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+   
+    },
+    "hybrid": {
+      "loss": 0.0879,
+      "mae": 19893.336461561423,
+      "image": ["static/image/enviorment_arima.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+    },
+    "svr": {
+      "mae": 0.07201012546031765,
+      "mse": 0.0072392376493045935,
+      "rmse": 0.0850837096588095,
+      "r2": 0.992616982065249,
+      "image": ["static/image/enviorment_svr.png", "static/image/environment.png", "static/image/environment_acf_pacf.png"]
+    }
+  },
+  "energy": {
+    "d_energy": 0,
+    "arima": {
+      "mse": 6827857.678168856,
+      "order": [2, 1, 2],
+      "image": ["static/image/energy_arima.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "ann": {
+      "loss": 0.0009630107670091093,
+      "metric": 0.026595957577228546,
+      "image": ["static/image/energy_ann.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "ets": {
+      "mse": 213363.8608457475,
+      "mae": 304.0287331127811,
+      "rmse": 461.91326117112885,
+      "r2": 0.9681692367558731,
+      "image": ["static/image/energy_ets.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "sarima":{
+      "image": ["static/image/energy_arima.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "lstm":{
+      "image": ["static/image/energy_lstm.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "prophet":{
+      "image": ["static/image/energy_prophet.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "hybrid": {
+      "loss": 0.0780,
+      "mae": 406.74351558595896,
+      "image": ["static/image/energy_arima.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    },
+    "svr": {
+      "mae": 0.7774281862847674,
+      "mse": 0.9571958077594762,
+      "rmse": 0.9783638422179533,
+      "r2": 0.04121899865126655,
+      "image": ["static/image/energy_svr.png", "static/image/energy.png", "static/image/energy_acf_pacf.png"]
+    }
+  }
+}
