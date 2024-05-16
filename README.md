@@ -100,3 +100,5 @@ Confirming proper functionality of both backend and frontend components without 
 - SQlite
 - Libraries for models (Prophet, SRIMA, ExponentailSmoothing)
 - Tensorflow
+
+**NOTE:** "static" folder has an "image" folder in it which contains all the visualization results of all models.
