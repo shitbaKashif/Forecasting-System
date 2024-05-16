@@ -79,14 +79,23 @@ Confirming proper functionality of both backend and frontend components without 
 ## Results
 
 - **ARIMA:**
-- - Best model: ARIMA(1, 2, 1) with MSE of 9.9467.
+  - Best model: ARIMA(1, 2, 1) with MSE of 9.9467.
 - **ANN:**
-- Finance Dataset: Loss: 298.91, Metric: 10.59.
-- Energy Dataset: Loss: 0.00008, Metric: 0.00732.
-- Environment Dataset: Loss: 0.000001, Metric: 0.00086.
-- **ETS:** Finance Dataset: MSE: 618.79, MAE: 15.11, RMSE: 24.88, R2: 0.9994. Energy Dataset: MSE: 213363.86, MAE: 304.03, RMSE: 461.91, R2: 0.9682. Environment Dataset: MSE: 0.267, MAE: 0.358, RMSE: 0.517, R2: 0.9996.
-- **SVR:** Finance: MAE: 0.124, MSE: 0.035, RMSE: 0.187, R2: 0.967. Energy: MAE: 0.777, MSE: 0.957, RMSE: 0.978, R2: 0.041. Environment: MAE: 0.072, MSE: 0.007, RMSE: 0.085, R2: 0.993.
-- **Hybrid:** Finance: MAE: 4107.04. Energy: MAE: 19893.34. Environment: MAE: 406.74.
+  - Finance Dataset: Loss: 298.91, Metric: 10.59.
+  - Energy Dataset: Loss: 0.00008, Metric: 0.00732.
+  - Environment Dataset: Loss: 0.000001, Metric: 0.00086.
+- **ETS:**
+-   Finance Dataset: MSE: 618.79, MAE: 15.11, RMSE: 24.88, R2: 0.9994.
+-   Energy Dataset: MSE: 213363.86, MAE: 304.03, RMSE: 461.91, R2: 0.9682.
+-   Environment Dataset: MSE: 0.267, MAE: 0.358, RMSE: 0.517, R2: 0.9996.
+- **SVR:**
+-   Finance: MAE: 0.124, MSE: 0.035, RMSE: 0.187, R2: 0.967.
+-   Energy: MAE: 0.777, MSE: 0.957, RMSE: 0.978, R2: 0.041.
+-   Environment: MAE: 0.072, MSE: 0.007, RMSE: 0.085, R2: 0.993.
+- **Hybrid:**
+-   Finance: MAE: 4107.04.
+-   Energy: MAE: 19893.34.
+-   Environment: MAE: 406.74.
 
 ## For Running
 
