@@ -21,7 +21,7 @@ The objective of this project is to develop a comprehensive forecasting system c
 ## Tools and Technologies
 
 - **Backend:** Python with Flask for server-side logic and handling API requests.
-- **Frontend:** Flask for building a dynamic and responsive user interface, HTML/CSS for layout and styling.
+- **Frontend:** HTML/CSS for layout and styling.
 - **Data Science:** Python with Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, TensorFlow/Keras.
 - **Database:** SQLite for storing processed data and results, facilitating quick retrieval for visualization.
 - **Version Control:** Git for code management and version control.
@@ -64,7 +64,6 @@ Implementing interactive charts and graphs for effective data and forecast prese
 
 - Select different forecasting models.
 - Display time series data, forecasts, residuals, and accuracy metrics dynamically.
-- Compare results between different models side-by-side.
 - Upload new data and retrain models interactively.
 
 ## Testing and Validation
@@ -96,5 +95,6 @@ Confirming proper functionality of both backend and frontend components without 
 - SQLite
 - Libraries for models (Prophet, SARIMA, Exponential Smoothing)
 - TensorFlow
+- To directly install the requirements from the requirements.txt file, you can use the following command: pip install -r requirements.txt
 
 **Made by Shitba Kashif and Hiba Imran**
