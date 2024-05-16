@@ -21,7 +21,7 @@ The objective of this project is to develop a comprehensive forecasting system c
 ## Tools and Technologies
 
 - **Backend:** Python with Flask for server-side logic and handling API requests.
-- **Frontend:** ReactJS for building a dynamic and responsive user interface, HTML/CSS for layout and styling.
+- **Frontend:** Flask for building a dynamic and responsive user interface, HTML/CSS for layout and styling.
 - **Data Science:** Python with Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, TensorFlow/Keras.
 - **Database:** SQLite for storing processed data and results, facilitating quick retrieval for visualization.
 - **Version Control:** Git for code management and version control.
